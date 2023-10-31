@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Preferences Survey Form</title>
+</head>
+     <style>
+  .body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  th, td {
+    padding: 10px;
+  }
+  label{
+    margin-right: 20px;
+  }
+     </style>
+ <body>  
+  <h1 id="main heading" style="color: green;">
+    Food Preferences - Survey Form
+  </h1>
+  <h2 id="subheading" style="font-size: 100%;" >
+    Please fill out the and submit the form at the earliest 
+  </h2>
+  <hr >
+    
+     <div>
+      <form action="" method="post">
+        <table>
+          
+          <tr>
+            <td>1. Name</td>
+          <td><input type="text" name="UserName" /></td></tr>
+          <tr>
+            <td>   2. Age          </td>
+            <td><input type="number" name="Age" min="10" max="70"/></td>
+            </tr>
+
+            <tr>
+              <td> 3. where do you eat your food? </td>
+              <td>
+                <input type="radio" name="location" id="home" value="home">
+                <label for="home">at Home </label>
+                <input type="radio" name="location" id="work_or_school" value="work_or_school">
+                <label for="work_or_school" >at Work/School </label>
+                <input type="radio" name="location" id="restaurant" value="restaurant">
+                <label for="restaurant" >at a Restaurant </label>
+                            </td>
+             </tr> 
+              
+             <tr>
+                <td colspan="2">4. Specify, how often </td>
+              </tr>
+               </table>
+            </form>
+           <form action="" method="post">
+            <table>  
+             <tr>
+                <td  colspan="2">
+                   <thead style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    <th>   </th>
+                    <th id="everyday">everyday </th>
+                    <th >a few times a week </th>
+                    <th>once a week</th>
+                    <th>several time a month</th>
+                    <th>once a month</th>
+                    <th>less ofthen than once a month</th>
+                    
+                   </thead>
+
+                </td>
+
+              </tr>
+                 
+            
+        </table>
+
+
+      </form>
+     </div>
+ </body>
+</html>
+
+
+
+<!--<html lang="en">
+  <style>
+    #styleFirst{
+      color: red;
+    }
+    .styleSecond{
+      color: green;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+     <div>
+    <label for="name">NAME</label>
+    <input type="text" name="name" id="name" value="vaibhav">
+  </div>
+  <div>
+    <h2 class="styleSecond">
+      lets have fun!
+    </h2>
+    <label for="age">AGE  </label>
+    <input type="number" name="age" id="age"
+    min="18" max="36">
+  </div>
+  <div>
+    <label for="date">DATE  </label>
+    <input type="date" name="date" id="date">
+  </div>
+
+  <div>
+    <label for="week">WEEK  </label>
+    <input type="week" name="week" id="week">
+  </div>
+  <div>
+<label> SELECT FAVOURITE FOOD</label>
+<input type="radio" name="fruits" id="apple" checked> Apple
+<input type="radio" name="fruits" id="mango"> Mango
+<input type="radio" name="fruits" id="banana"> Banana
+
+
+  </div>
+
+  <div>
+    <h1 id="styleFirst">this is my website </h1>
+    <label> SELECT FAVOURITE FOOD</label>
+    <input type="checkbox" name="fruits" id="apple" checked> Apple
+    <input type="checkbox" name="fruits" id="mango"> Mango
+    <input type="checkbox" name="fruits" id="banana"> Banana
+    
+    
+      </div>
+
+
+      <div>
+<label for="gender">I AM </label>
+<select name="gender" id="gender">
+  <option value="male" selected>MALE</option>
+  <option value="female">FEMALE</option>
+
+</select>
+        
+      </div>
+
+    <div>
+<label for="aboutme">ABOUT ME </label>
+<textarea name="aboutme" id="aboutme" cols="30"
+ rows="10" style="vertical-align: top;" placeholder="i am ..."
+ minlength="10" maxlength="100"
+ disabled></textarea>
+
+
+    </div>
+  <div>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </div>
+
+
+<form >
+  
+  <label for="brand">Select a Brand</label>
+  <input type="brand" id="brand" list="brands">
+
+  <datalist id="brands">
+    <option value="lakme" checked></option>
+    <option value="apple"></option>
+    <option value="FSB"></option>
+  </datalist>
+
+
+></form> 
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>--->
